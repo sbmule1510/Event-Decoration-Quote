@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+        <meta charset="UTF-8">
+        <metaname="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Event Decoration Quote</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Event Decoration Quote</h2>
+            <form action="result.jsp" method="post">
+                <label>Client</label>
+                <input type="text" name="client" maxlength="30" required>
+
+                <label>Theme</label>
+                <select name="theme" required>
+                    <option value="">Select theme</option>
+                    <option value="floral">Floral</option>
+                    <option value="royal">Royal</option>
+                    <option value="balloon">Balloon</option>
+                    <option value="traditional">Traditional</option>
+                </select>
+
+                <label>Budget(Rs.)</label>
+                <input type="number" name="budget" required>
+
+                <label>Event Date</label>
+                <input type="date" name="event_date" required>
+
+                <button type="submit">Save</button>
+            </form>
+        </div>
+    </body>
+</html>
